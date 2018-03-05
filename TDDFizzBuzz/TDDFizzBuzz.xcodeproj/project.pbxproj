@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A63A1CB5204CEF2D0058CBE3 /* ViewControllerUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63A1CB4204CEF2D0058CBE3 /* ViewControllerUnitTests.swift */; };
 		A6FACB1A2048FAAA00046F35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FACB192048FAAA00046F35 /* AppDelegate.swift */; };
 		A6FACB1C2048FAAA00046F35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FACB1B2048FAAA00046F35 /* ViewController.swift */; };
 		A6FACB1F2048FAAA00046F35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6FACB1D2048FAAA00046F35 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A63A1CB4204CEF2D0058CBE3 /* ViewControllerUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerUnitTests.swift; sourceTree = "<group>"; };
 		A6FACB162048FAAA00046F35 /* TDDFizzBuzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDDFizzBuzz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6FACB192048FAAA00046F35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6FACB1B2048FAAA00046F35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				A6FACB302048FAAA00046F35 /* Info.plist */,
 				A6FACB472048FAFF00046F35 /* TDDFizzBuzzTests.swift */,
 				A6FACB4B204AF74000046F35 /* GameTests.swift */,
+				A63A1CB4204CEF2D0058CBE3 /* ViewControllerUnitTests.swift */,
 			);
 			path = TDDFizzBuzzTests;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 			files = (
 				A6FACB482048FAFF00046F35 /* TDDFizzBuzzTests.swift in Sources */,
 				A6FACB4C204AF74000046F35 /* GameTests.swift in Sources */,
+				A63A1CB5204CEF2D0058CBE3 /* ViewControllerUnitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
