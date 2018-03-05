@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  TDD-FizzBuzz
+//  TDDFizzBuzz
 //
 //  Created by Bharath Kamath on 2018-03-01.
 //  Copyright © 2018 Bharath Kamath. All rights reserved.

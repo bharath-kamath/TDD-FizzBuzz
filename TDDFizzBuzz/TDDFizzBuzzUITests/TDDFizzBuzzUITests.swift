@@ -1,6 +1,6 @@
 //
-//  TDD_FizzBuzzUITests.swift
-//  TDD-FizzBuzzUITests
+//  TDDFizzBuzzUITests.swift
+//  TDDFizzBuzzUITests
 //
 //  Created by Bharath Kamath on 2018-03-01.
 //  Copyright © 2018 Bharath Kamath. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class TDD_FizzBuzzUITests: XCTestCase {
+class TDDFizzBuzzUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()
