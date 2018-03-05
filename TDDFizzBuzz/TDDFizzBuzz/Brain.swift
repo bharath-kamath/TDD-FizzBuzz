@@ -27,16 +27,16 @@ class Brain {
         return (number % divisor == 0) ? true : false
     }
     
-    func check(number: Int) -> String {
+    func check(number: Int) -> Move {
         if isDivisibleByFifteen(number: number) {
-            return "FizzBuzz"
+            return .fizzBuzz
         }
         else if isDivisibleByFive(number: number) {
-            return "Buzz"
+            return .buzz
         }
         else if isDivisibleByThree(number: number) {
-            return "Fizz"
+            return .fizz
         }
-        return "\(number)"
+        return .number
     }
 }

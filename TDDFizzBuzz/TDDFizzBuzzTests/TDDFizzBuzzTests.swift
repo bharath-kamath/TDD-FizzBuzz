@@ -53,21 +53,21 @@ class TDDFizzBuzzTests: XCTestCase {
     
     func testSayFizz() {
         let result = brain.check(number: 3)
-        XCTAssertEqual(result, "Fizz")
+        XCTAssertEqual(result, .fizz)
     }
     
     func testSayBuzz() {
         let result = brain.check(number: 5)
-        XCTAssertEqual(result, "Buzz")
+        XCTAssertEqual(result, .buzz)
     }
     
     func testSayFizzBuzz() {
         let result = brain.check(number: 15)
-        XCTAssertEqual(result, "FizzBuzz")
+        XCTAssertEqual(result, .fizzBuzz)
     }
     
     func testSayNumber() {
         let result = brain.check(number: 1)
-        XCTAssertEqual(result, "1")
+        XCTAssertEqual(result, .number)
     }
 }

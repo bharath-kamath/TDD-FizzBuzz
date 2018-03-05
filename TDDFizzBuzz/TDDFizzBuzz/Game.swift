@@ -23,13 +23,13 @@ class Game {
         power = 0
     }
     
-    func play(move: String) -> Bool {
-        if brain.check(number: score+1).elementsEqual(move) {
+    func play(move: Move) -> (right: Bool, score: Int) {
+        if brain.check(number: score+1) == move {
             score += 1
-            return true
+            return (true, score)
         }
         else {
-            return false
+            return (false, score)
         }
     }
 }
